@@ -1,0 +1,21 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "model": "minecraft:item/sushi",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": "Bannhammer",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/bannhammer"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/glistering_melon_slice"
+    }
+  }
+}
